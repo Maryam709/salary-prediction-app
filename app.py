@@ -27,7 +27,3 @@ if st.button("Predict Salary"):
 
     # Show result
     st.success(f"Predicted Salary: ${prediction:,.2f}")
-
-# Reset Button
-if st.button("Reset Inputs"):
-    st.experimental_rerun()
